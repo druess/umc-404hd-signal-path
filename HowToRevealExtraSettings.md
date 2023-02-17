@@ -1,3 +1,5 @@
+### How To Reveal Extra Settings And Information In The UMC Control Panel
+
 1. Go to the UMC Audio Driver Directory - if installed with default options it will be located at: C:\Program Files\BEHRINGER\UMC_Audio_Driver\x64
 
 2. Use a code or text editor and open up the UMCAudioCplApp.xml file.
