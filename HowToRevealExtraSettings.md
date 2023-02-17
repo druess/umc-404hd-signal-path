@@ -15,16 +15,17 @@ Once you follow the steps you'll see all these extra setting tabs in the UMC Con
      3a. You can also change some of the settings that are marked False to True (for example, the SerialNumber is set to False and thus not displayed. However you can change it to True and then you'll see it listed on the Info tab in the UMC Control Panel application once you save the UMCAudioCplApp.xml file and restart the application. Please note that mine didn't have a serial number added, so that's probably why they marked the setting as false.
 
 4. Save the file.
-4a.Be sure to save the file with utf-8 encoding. If you open the file with a code editor like VSCode, this will save automatically with the encoding it had when you opened the file.
+    
+    4a.Be sure to save the file with utf-8 encoding. If you open the file with a code editor like VSCode, you don't have to worry about this.
 
-5. The code below is what my UMCAudioCPLApp.xml file looks like after I changed everything from Hidden to Visible, and from False to True.
+5. Right-click on the UMC Control Panel in the system notification tray and exit the program.
 
-6. Right-click on the UMC Control Panel in the system notifaction tray and exit the program.
+6. Find the UMC Control Panel application and open it.
 
-7. Find the UMC Control Panel application and open it.
-
-8. You should now see a lot of extra tabs in the control panel that show you a lot of extra information. Enjoy!
-
+7. You should now see a lot of extra tabs in the control panel that show you a lot of extra information. Enjoy!
+ 
+<br/><br/>
+*This is what my UMCAudioCPLApp.xml file looked like after I changed everything from Hidden to Visible, and from False to True.*
 ```
 <?xml version="1.0" encoding="utf-8" ?>
 
