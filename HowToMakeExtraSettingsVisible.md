@@ -8,7 +8,7 @@
 4. Save the file.
 4a.Be sure to save the file with utf-8 encoding. If you open the file with a code editor like VSCode, this will save automatically with the encoding it had when you opened the file.
 
-5. Here is what my UMCAudioCPLApp.xml file looks like after everything is changed from Hidden to Visible, and False to True.
+5. The code below is what my UMCAudioCPLApp.xml file looks like after I changed everything from Hidden to Visible, and from False to True.
 
 6. Right-click on the UMC Control Panel in the system notifaction tray and exit the program.
 
@@ -16,6 +16,7 @@
 
 8. You should now see a lot of extra tabs in the control panel that show you a lot of extra information. Enjoy!
 
+```
 <?xml version="1.0" encoding="utf-8" ?>
 
 <!-- Control Panel Configuration File
@@ -107,3 +108,4 @@
     </PageAbout>
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 </ControlPanel>
+```
