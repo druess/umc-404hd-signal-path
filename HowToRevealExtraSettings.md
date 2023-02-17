@@ -1,11 +1,18 @@
 ### How To Reveal Extra Settings And Information In The UMC Control Panel
 
-1. Go to the UMC Audio Driver Directory - if installed with default options it will be located at: C:\Program Files\BEHRINGER\UMC_Audio_Driver\x64
+Once you follow the steps you'll see all these extra setting tabs in the UMC Control Panel application.
+
+![Screenshot of the UMC Control Panel with extra setting tabs](https://raw.githubusercontent.com/druess/umc-404hd-signal-path/master/UMC-Control-Panel-Extra-Settings%20-%20Copy.png?raw=true)
+
+1. Go to the UMC Audio Driver Directory - if you installed it with default options then it will be located at: 
+
+     *C:\Program Files\BEHRINGER\UMC_Audio_Driver\x64*
 
 2. Use a code or text editor and open up the UMCAudioCplApp.xml file.
 
 3. Change the sections that are marked Hidden to Visible. 
-3a. You can also change some of the settings that are marked False to True (for example, the SerialNumber is set to False and thus not displayed. However you can change it to True and then you'll see it listed on the Info tab in the UMC Control Panel application once you save this file and restart. Please note that mine didn't have a serial number added, so that's probably why they marked the setting as false.
+     
+     3a. You can also change some of the settings that are marked False to True (for example, the SerialNumber is set to False and thus not displayed. However you can change it to True and then you'll see it listed on the Info tab in the UMC Control Panel application once you save the UMCAudioCplApp.xml file and restart the application. Please note that mine didn't have a serial number added, so that's probably why they marked the setting as false.
 
 4. Save the file.
 4a.Be sure to save the file with utf-8 encoding. If you open the file with a code editor like VSCode, this will save automatically with the encoding it had when you opened the file.
